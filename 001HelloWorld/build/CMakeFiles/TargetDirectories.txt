@@ -1,0 +1,6 @@
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/001HelloWorld/build/CMakeFiles/rebuild_cache.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/001HelloWorld/build/CMakeFiles/001HelloWorld.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/001HelloWorld/build/CMakeFiles/edit_cache.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/001HelloWorld/build/kendryte_standalone-sdk/CMakeFiles/rebuild_cache.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/001HelloWorld/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/001HelloWorld/build/kendryte_standalone-sdk/CMakeFiles/edit_cache.dir
