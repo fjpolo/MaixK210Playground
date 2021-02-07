@@ -1,0 +1,6 @@
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles/rebuild_cache.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles/002_HelloWorldTimer.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles/edit_cache.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk/CMakeFiles/rebuild_cache.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir
+/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk/CMakeFiles/edit_cache.dir

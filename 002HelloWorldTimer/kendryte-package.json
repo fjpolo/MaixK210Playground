@@ -1,0 +1,13 @@
+{
+    "name": "002/HelloWorldTimer",
+    "version": "develop",
+    "type": "executable",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop"
+    },
+    "source": [
+        "src/*.c"
+    ],
+    "header": [],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection"
+}
