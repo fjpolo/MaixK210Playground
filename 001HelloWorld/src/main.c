@@ -7,14 +7,39 @@
 
 int main() {
   printf("Hello World\n");
+  int GPIOHandler = 0;
 
-  /**/
-   uint64_t counter = 0;
+  /*Init GPIO*/
+  GPIOHandler = gpio_init();
+
+  /*Set PI6 (ESP32_TX) function*/
+  GPIOHandler = fpioa_set_function(6, FUNC_GPIO6);
+
+  /*Set PI6 as output*/
+  gpio_set_drive_mode(6, GPIO_DM_OUTPUT);
+
+  /**
+   *
+   * MAIN()
+   *
+   */
   while (1) {
-    printf("Test: %d\r\n", counter);
-    for (int i = 0; i < 1000000; i++) {
+    static uint64_t counter = 0;
+
+    /*Show counter*/
+    printf("Counter: %d\r\n", counter);
+    /*Set PI6 low*/
+    gpio_set_pin(6, GPIO_PV_LOW);
+    /*Pseudo-delay*/
+    for (int i = 0; i < 10000000; i++) {
     }
+    /*Increase counter*/
     counter++;
+    /*Set PI6 high*/
+    gpio_set_pin(6, GPIO_PV_HIGH);
+    /*Pseudo-delay*/
+    for (int i = 0; i < 10000000; i++) {
+    }
   }
   return 1;
 }

@@ -97,9 +97,9 @@ add_source_file(lib/nncase/nncase.cpp)
 add_source_file(lib/nncase/runtime/interpreter.cpp)
 add_source_file(lib/nncase/runtime/kernel_registry.cpp)
 add_source_file(lib/nncase/runtime/cpu/cpu_ops.cpp)
-add_source_file(lib/nncase/runtime/neutral/neutral_ops.cpp)
 add_source_file(lib/nncase/runtime/k210/interpreter.cpp)
 add_source_file(lib/nncase/runtime/k210/k210_ops.cpp)
+add_source_file(lib/nncase/runtime/neutral/neutral_ops.cpp)
 ## [/section] Source
 # [/section] Project
 

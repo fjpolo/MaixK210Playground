@@ -512,22 +512,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtim
 	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.s"
 	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/cpu/cpu_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
-	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj -c /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i: cmake_force
-	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i"
-	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s: cmake_force
-	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s"
-	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj"
 	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj -c /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i: cmake_force
@@ -540,7 +527,7 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtim
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj"
 	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj -c /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.i: cmake_force
@@ -550,6 +537,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtim
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.s"
 	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
+	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj -c /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i: cmake_force
+	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i"
+	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s: cmake_force
+	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s"
+	cd /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/kendryte_standalone-sdk && /home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s
 
 # Object files for target kendryte_standalone-sdk
 kendryte_standalone__sdk_OBJECTS = \
@@ -588,9 +588,9 @@ kendryte_standalone__sdk_OBJECTS = \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj"
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
 
 # External object files for target kendryte_standalone-sdk
 kendryte_standalone__sdk_EXTERNAL_OBJECTS =
@@ -630,9 +630,9 @@ kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CM
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fjpolo/ML/Sipeed/Firmware/uncompiled/SipeedIDE/002HelloWorldTimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C static library libkendryte_standalone-sdk.a"

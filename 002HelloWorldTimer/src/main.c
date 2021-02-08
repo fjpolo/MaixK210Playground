@@ -33,6 +33,10 @@ int timer_callback(void *ctx) {
   /**/
   if (++flag500ms == 500) {
     printf("Testing interrupt!\r\n");
+    if (gpio_get_pin(6) == GPIO_PV_LOW) {
+      gpio_set_pin(6, GPIO_PV_HIGH);
+    } else
+      gpio_set_pin(6, GPIO_PV_LOW);
     flag500ms = 0;
   }
 
@@ -45,6 +49,20 @@ int timer_callback(void *ctx) {
  *
  */
 int main(void) {
+  int GPIOHandler = 0;
+
+  /*Hello*/
+  printf("Hello World\n");
+
+  /*Init GPIO*/
+  GPIOHandler = gpio_init();
+
+  /*Set PI6 (ESP32_TX) function*/
+  GPIOHandler = fpioa_set_function(6, FUNC_GPIO6);
+
+  /*Set PI6 as output*/
+  gpio_set_drive_mode(6, GPIO_DM_OUTPUT);
+
   /* Init Platform-Level Interrupt Controller(PLIC) */
   // Initialize the interrupt module
   plic_init();

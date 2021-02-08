@@ -5,4 +5,4 @@ export PYTHONDONTWRITEBYTECODE=yes
 export CMAKE_MAKE_PROGRAM=make
 export KENDRYTE_IDE=yes
 export LANG=en_US.utf-8
-"/home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/cmake/bin/cmake" -E server --experimental --pipe=/dev/shm/kide-sock/cmake_server_pipe.1612714762828.sock
+"/home/fjpolo/Downloads/updater.beta.20190604.4.linux/KendryteIDE/LocalPackage/cmake/bin/cmake" -E server --experimental --pipe=/dev/shm/kide-sock/cmake_server_pipe.1612780519896.sock

@@ -34,9 +34,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj"
   "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj"
   "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj"
-  "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
   "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj"
   "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj"
+  "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
   "libkendryte_standalone-sdk.pdb"
   "libkendryte_standalone-sdk.a"
 )
